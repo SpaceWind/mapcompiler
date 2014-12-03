@@ -21,6 +21,10 @@ MainWindow::MainWindow(QWidget *parent) :
     setUpShortCats(0);
 
 }
+
+/*
+ *  my change.
+ */
 bool MainWindow::eventFilter(QObject *target, QEvent *event)
 {
     if (event->type() == QEvent::KeyPress)
